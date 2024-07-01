@@ -85,6 +85,7 @@
         </div>
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/fancybox.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
