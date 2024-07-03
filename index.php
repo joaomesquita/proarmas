@@ -6,38 +6,65 @@
             <div class="col-12 col-lg-5">
                 <h5 class="font-48 fw-light mb-0">Não é sobre armas</h5>
                 <h1 class="font-96 fw-bold lh-1 mb-4">É sobre<br>Liberdade</h1>
-                <a href="#" class="btn btn-primary w-50">Seja Membro</a>
+                <a href="#" class="btn btn-primary w-50">Seja Membro<i class="bi bi-chevron-right color-light ms-2"></i></a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="session bg-secondary">
+<div class="session bg-secondary overflow-hidden">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+        <div class="row gx-lg-5">
+            <div class="missao col-12 col-lg-4 mb-4 mb-lg-0">
                 <h2 class="font-32 fw-bold">A nossa missão é<br>construir um <span class="color-primary">país livre</span>.</h2>
-                <p class="font-18 fw-medium">Por aqui, lutamos lado a lado, incessantemente<br>para que nossos direitos não sejam tolhidos.</p>
-                <a href="#" class="btn btn-outline-primary">Conheça o Movimento</a>
+                <p class="font-18 fw-medium">Por aqui, lutamos lado a lado, incessantemente para que nossos direitos não sejam tolhidos.</p>
+                <a href="#" class="btn btn-outline-primary">Conheça o Movimento<i class="bi bi-chevron-right color-primary ms-2"></i></a>
             </div>
             <div class="col-12 col-lg-8">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-nossos-planos-tab" data-bs-toggle="pill" data-bs-target="#pills-nossos-planos" type="button" role="tab" aria-controls="pills-nossos-planos" aria-selected="true">Nossos Planos</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-nosso-movimento-tab" data-bs-toggle="pill" data-bs-target="#pills-nosso-movimento" type="button" role="tab" aria-controls="pills-nosso-movimento" aria-selected="false">Nosso Movimento</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-comunidade-tab" data-bs-toggle="pill" data-bs-target="#pills-comunidade" type="button" role="tab" aria-controls="pills-comunidade" aria-selected="false">Comunidade</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-servicos-tab" data-bs-toggle="pill" data-bs-target="#pills-servicos" type="button" role="tab" aria-controls="pills-servicos" aria-selected="false">Serviços</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-nossa-loja-tab" data-bs-toggle="pill" data-bs-target="#pills-nossa-loja" type="button" role="tab" aria-controls="pills-nossa-loja" aria-selected="false">Nossa Loja</button>
-                    </li>
-                </ul>
+                <!-- desktop -->
+                <div class="d-none d-lg-block">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-nossos-planos-tab" data-bs-toggle="pill" data-bs-target="#pills-nossos-planos" type="button" role="tab" aria-controls="pills-nossos-planos" aria-selected="true">Nossos Planos</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-nosso-movimento-tab" data-bs-toggle="pill" data-bs-target="#pills-nosso-movimento" type="button" role="tab" aria-controls="pills-nosso-movimento" aria-selected="false">Nosso Movimento</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-comunidade-tab" data-bs-toggle="pill" data-bs-target="#pills-comunidade" type="button" role="tab" aria-controls="pills-comunidade" aria-selected="false">Comunidade</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-servicos-tab" data-bs-toggle="pill" data-bs-target="#pills-servicos" type="button" role="tab" aria-controls="pills-servicos" aria-selected="false">Serviços</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-nossa-loja-tab" data-bs-toggle="pill" data-bs-target="#pills-nossa-loja" type="button" role="tab" aria-controls="pills-nossa-loja" aria-selected="false">Nossa Loja</button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- mobile -->
+                <div class="d-block d-lg-none">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="width:100vw;">
+                        <div class="swiper tabs">
+                            <div class="swiper-wrapper">
+                                <li class="swiper-slide nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-nossos-planos-tab" data-bs-toggle="pill" data-bs-target="#pills-nossos-planos" type="button" role="tab" aria-controls="pills-nossos-planos" aria-selected="true">Nossos Planos</button>
+                                </li>
+                                <li class="swiper-slide nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-nosso-movimento-tab" data-bs-toggle="pill" data-bs-target="#pills-nosso-movimento" type="button" role="tab" aria-controls="pills-nosso-movimento" aria-selected="false">Nosso Movimento</button>
+                                </li>
+                                <li class="swiper-slide nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-comunidade-tab" data-bs-toggle="pill" data-bs-target="#pills-comunidade" type="button" role="tab" aria-controls="pills-comunidade" aria-selected="false">Comunidade</button>
+                                </li>
+                                <li class="swiper-slide nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-servicos-tab" data-bs-toggle="pill" data-bs-target="#pills-servicos" type="button" role="tab" aria-controls="pills-servicos" aria-selected="false">Serviços</button>
+                                </li>
+                                <li class="swiper-slide nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-nossa-loja-tab" data-bs-toggle="pill" data-bs-target="#pills-nossa-loja" type="button" role="tab" aria-controls="pills-nossa-loja" aria-selected="false">Nossa Loja</button>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-nossos-planos" role="tabpanel" aria-labelledby="pills-nossos-planos-tab" tabindex="0">
                         <div class="d-flex flex-column flex-lg-row align-items-center">
@@ -116,12 +143,13 @@
 
 <div class="session conteudo bg-primary">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 col-lg-12 text-center">
+        <div class="row justify-content-center mb-4 mb-lg-5">
+            <div class="col-10 col-lg-12 text-center">
                 <h2 class="font-32 fw-bold color-light">Para você e <span class="color-primary">para sua empresa</span></h2>
             </div>
         </div>
-        <div class="row">
+        <!-- desktop -->
+        <div class="row d-none d-lg-block">
             <div class="col-12 col-lg-12">
                 <div class="row row-cols-1 row-cols-lg-4 g-lg-4 gy-5">
                     <div class="col">
@@ -171,19 +199,42 @@
                 </div>
             </div>
         </div>
+        <!-- mobile -->
+        <div class="row d-block d-lg-none">
+            <div class="col-12 col-lg-12">
+                <div class="swiper conteudos">
+                    <div class="swiper-wrapper">
+                        <?php for ($i = 1; $i < 3; $i++) { ?>
+                        <div class="swiper-slide">
+                            <div class="card card-conteudo">
+                                <img src="img/conteudo1.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <h5 class="font-24 fw-bold color-light">Assine Nossos<br>Conteúdos</h5>
+                                    <i class="bi bi-arrow-right font-24 color-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <?php } ?>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <div class="session objetivo bg-dark">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 col-lg-12 text-center">
+        <div class="row justify-content-center mb-5">
+            <div class="col-11 col-lg-12 text-center">
                 <h2 class="font-32 fw-bold color-light">O objetivo do <span class="color-primary">Pró Armas</span></h2>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-lg-12">
-                <div class="row row-cols-1 row-cols-lg-4 g-lg-4 gy-5">
+                <div class="row row-cols-1 row-cols-lg-4 g-lg-4 gy-4">
                     <div class="col text-center">
                         <h2 class="font-96 fw-extralight color-light">12%</h2>
                         <p class="font-18 fw-semibold color-primary mb-0">Mais inscritos em 2024</p>
@@ -217,10 +268,10 @@
     </div>
 </div>
 
-<div class="session">
+<div class="session  overflow-hidden">
     <div class="container">
-        <div class="row mb-4">
-            <div class="col-12 col-lg-12 text-center">
+        <div class="row justify-content-center mb-4">
+            <div class="col-11 col-lg-12 text-center">
                 <h2 class="font-32 fw-bold">O que dizem sobre nosso <span class="color-secondary">Movimento</span></h2>
             </div>
         </div>
@@ -247,11 +298,12 @@
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination d-block d-lg-none"></div>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-7 text-center mt-5">
+            <div class="col-12 col-lg-7 text-center mt-lg-5">
                 <h2 class="font-32 fw-bold">Nosso movimento precisa de você!</h2>
                 <p class="font-18 fw-medium"> Engaje-se no "Pró Armas" para defender nossos direitos e liberdades. Participe de cursos e debates. Sua voz é crucial para moldar leis justas. Junte-se a nós!</p>
                 <a href="#" class="btn btn-primary">Seja Membro<i class="bi bi-chevron-right color-light ms-2"></i></a>

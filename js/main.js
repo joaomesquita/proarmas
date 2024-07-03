@@ -34,6 +34,9 @@ var swiper = new Swiper(".depoimentos", {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
     },
+    pagination: {
+        el: ".swiper-pagination",
+    },
     breakpoints: {
         320: {
             slidesPerView: 1
@@ -45,4 +48,29 @@ var swiper = new Swiper(".depoimentos", {
             slidesPerView: 3
         },
     },
+});
+
+var swiper = new Swiper(".conteudos", {
+    loop: true,
+    spaceBetween: 25,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1
+        }
+    },
+});
+
+var swiper = new Swiper(".tabs", {
+    loop: false,
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    mousewheel: true,
+    keyboard: true,
 });
